@@ -6,7 +6,7 @@
 | --- | --- | --- | --- |
 | POST | /api/register | This endpoint allow users to register. Hash the password and stores it. | 201 |
 | POST | /api/login | This endpoint allow users to login. Return a JWT token on login. | 201 |
-| POST | /api/movies | This endpoint returns list of all available movies. | 200 |
+| POST | /api/movies | This endpoint allow users to create movie. | 200 |
 | GET | /api/movies | This endpoint returns list of all available movies. | 200 |
 | GET | /api/movies/:id | This endpoint returns the details of a specific movie identified by its ID. | 200 |
 | POST | /api/reviews/:movieId | This endpoint allow users to add reviews for a specific movie identified by its ID. (Protected Route provide JWT token) | 201 |
